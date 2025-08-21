@@ -1,0 +1,1553 @@
+[
+    {
+        "name": "Nature’s Recipe Grain-Free Chicken, Sweet Potato & Pumpkin",
+        "category": "Pet Food",
+        "subcategory": "Dry Food",
+        "price": 26.98,
+        "brand": "Nature’s Recipe",
+        "stock_quantity": 60,
+    "description": "High-quality grain-free dry formula featuring real chicken as the first ingredient, balanced with fiber-rich sweet potato and pumpkin for easy digestion. Supports healthy skin, coat, and sustained energy for adult dogs.",
+        "tags": [
+            "dog",
+            "dry food",
+            "grain-free",
+            "chicken"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/natures-recipe-chicken-sweet-potato-pumpkin.png"
+    },
+    {
+        "name": "Pure Balance Chicken & Pea Grain-Free Dry Food",
+        "category": "Pet Food",
+        "subcategory": "Dry Food",
+        "price": 45.00,
+        "brand": "Pure Balance",
+        "stock_quantity": 40,
+    "description": "Grain-free balanced kibble crafted with real chicken and pea protein to deliver lean muscle support and sustained energy. Formulated without corn, wheat, or soy to suit dogs with common grain sensitivities.",
+        "tags": [
+            "dog",
+            "dry food",
+            "grain-free",
+            "chicken"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/pure-balance-chicken-pea-dry.png"
+    },
+    {
+        "name": "Merrick Backcountry Raw-Infused Great Plains Red",
+        "category": "Pet Food",
+        "subcategory": "Dry Food",
+        "price": 55.99,
+        "brand": "Merrick",
+        "stock_quantity": 35,
+    "description": "Protein-rich, grain-free dry recipe combining kibble with raw-infused freeze‑dried pieces for enhanced aroma and taste. Features red meat sources to support strong muscles and omega fatty acids for skin and coat health.",
+        "tags": [
+            "dog",
+            "dry food",
+            "grain-free",
+            "beef"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/merrick-backcountry-great-plains-red.png"
+    },
+    {
+        "name": "Purina One True Instinct Grain-Free Beef & Sweet Potato",
+        "category": "Pet Food",
+        "subcategory": "Dry Food",
+        "price": 30.50,
+        "brand": "Purina One",
+        "stock_quantity": 50,
+    "description": "Grain-free formula featuring real beef for highly digestible protein and sweet potatoes for complex carbohydrates. Provides antioxidants, vitamins, and omega fatty acids to promote immune function and shiny coat.",
+        "tags": [
+            "dog",
+            "dry food",
+            "grain-free",
+            "beef"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/purina-one-true-instinct-beef-sweet-potato.png"
+    },
+    {
+        "name": "Purina Pro Plan Complete Essentials Grilled Seafood Entrée",
+        "category": "Pet Food",
+        "subcategory": "Wet Food",
+        "price": 2.10,
+        "brand": "Purina Pro Plan",
+        "stock_quantity": 100,
+    "description": "Tender grilled seafood entrée in savory gravy formulated to support lean muscle maintenance and hydration. Enriched with essential taurine, antioxidants, and balanced minerals for overall feline vitality.",
+        "tags": [
+            "cat",
+            "wet food",
+            "seafood"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/purina-pro-plan-seafood-entree.png"
+    },
+    {
+        "name": "Fancy Feast Classic Turkey & Giblets Feast",
+        "category": "Pet Food",
+        "subcategory": "Wet Food",
+        "price": 1.85,
+        "brand": "Fancy Feast",
+        "stock_quantity": 120,
+    "description": "Classic smooth paté featuring turkey and nutrient-dense giblets for palatability and amino acid support. Provides a 100% complete and balanced diet with moisture to aid urinary tract health.",
+        "tags": [
+            "cat",
+            "wet food",
+            "turkey"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/fancy-feast-turkey-giblets-pate.png"
+    },
+    {
+        "name": "Tiki Cat After Dark Chicken & Duck Stew",
+        "category": "Pet Food",
+        "subcategory": "Wet Food",
+        "price": 3.25,
+        "brand": "Tiki Cat",
+        "stock_quantity": 80,
+    "description": "High-protein, biologically appropriate stew blending shredded chicken and nutrient-rich duck in a broth that supports hydration. Grain free and crafted with real organ meats for natural taurine and micronutrients.",
+        "tags": [
+            "cat",
+            "wet food",
+            "chicken",
+            "duck"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/tiki-cat-after-dark-chicken-duck-stew.png"
+    },
+    {
+        "name": "Wellness Stew Salmon & Duck",
+        "category": "Pet Food",
+        "subcategory": "Wet Food",
+        "price": 2.95,
+        "brand": "Wellness",
+        "stock_quantity": 90,
+    "description": "Moisture-rich gourmet stew featuring flaky salmon and succulent duck to deliver diversified animal proteins. Helps support joint, skin, and immune health with balanced vitamins, taurine, and omega fatty acids.",
+        "tags": [
+            "cat",
+            "wet food",
+            "salmon",
+            "duck"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/wellness-stew-salmon-duck.png"
+    },
+    {
+        "name": "Blue Buffalo Dental Chews",
+        "category": "Pet Food",
+        "subcategory": "Treats & Snacks",
+        "price": 12.99,
+        "brand": "Blue Buffalo",
+        "stock_quantity": 70,
+    "description": "Natural grain-free dental chews shaped and textured to help scrape away plaque and tartar while freshening breath. Fortified with added minerals and designed to be easily digestible for daily oral care.",
+        "tags": [
+            "dog",
+            "treats",
+            "grain-free",
+            "dental"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/blue-buffalo-dental-chews.png"
+    },
+    {
+        "name": "Merrick Power Bites Real Chicken Treats",
+        "category": "Pet Food",
+        "subcategory": "Treats & Snacks",
+        "price": 14.50,
+        "brand": "Merrick",
+        "stock_quantity": 65,
+    "description": "Soft and chewy high-value training treats made with real deboned chicken as the first ingredient. Rich aroma encourages focus while added omega fatty acids and glucosamine support skin, coat, and joint wellness.",
+        "tags": [
+            "dog",
+            "treats",
+            "chicken"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/merrick-power-bites-chicken.png"
+    },
+    {
+        "name": "Wellness Soft Puppy Bites",
+        "category": "Pet Food",
+        "subcategory": "Treats & Snacks",
+        "price": 9.99,
+        "brand": "Wellness",
+        "stock_quantity": 80,
+    "description": "Tender bite-sized puppy rewards crafted with real duck and salmon to provide DHA for cognitive development. Grain-free recipe supports early training with a texture gentle on developing teeth.",
+        "tags": [
+            "puppy",
+            "dog",
+            "treats",
+            "soft"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/wellness-soft-puppy-bites.png"
+    },
+    {
+        "name": "Redbarn Grain-Free Beef & Berry Treat Jerky",
+        "category": "Pet Food",
+        "subcategory": "Treats & Snacks",
+        "price": 11.75,
+        "brand": "Redbarn",
+        "stock_quantity": 90,
+    "description": "Air-dried jerky style treats combining real beef muscle meat with antioxidant-rich blueberries and cranberries. Grain and gluten free, providing a chewy texture ideal for moderate reward-based training.",
+        "tags": [
+            "dog",
+            "treats",
+            "beef",
+            "grain-free"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/redbarn-beef-berry-jerky.png"
+    },
+    {
+        "name": "Merrick Grain-Free Real Duck & Sweet Potato Puppy",
+        "category": "Pet Food",
+        "subcategory": "Special Diets",
+        "price": 49.99,
+        "brand": "Merrick",
+        "stock_quantity": 40,
+    "description": "Grain-free developmental formula featuring novel duck protein and digestible sweet potatoes to fuel growth. Enriched with DHA, chondroitin, and antioxidants to support brain, joint, and immune system maturation.",
+        "tags": [
+            "puppy",
+            "dog",
+            "grain-free"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/merrick-duck-sweet-potato-puppy.png"
+    },
+    {
+        "name": "Hill’s Science Diet Sensitive Stomach & Skin Adult",
+        "category": "Pet Food",
+        "subcategory": "Special Diets",
+        "price": 54.00,
+        "brand": "Hill’s Science Diet",
+        "stock_quantity": 30,
+    "description": "Veterinarian-recommended nutrition formulated with prebiotic fiber and highly digestible ingredients to soothe sensitive stomachs. Added vitamin E and omega-6 fatty acids nourish skin and promote a glossy coat.",
+        "tags": [
+            "dog",
+            "special diet",
+            "sensitive"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/hills-sensitive-stomach-skin-adult.png"
+    },
+    {
+        "name": "Royal Canin Small Breed Adult Sensitive Digestion",
+        "category": "Pet Food",
+        "subcategory": "Special Diets",
+        "price": 62.50,
+        "brand": "Royal Canin",
+        "stock_quantity": 35,
+    "description": "Precision nutrition tailored for small breed adults needing digestive support. Features highly digestible proteins, balanced prebiotics, and an exclusive kibble size to promote chewing and healthy microbiota.",
+        "tags": [
+            "dog",
+            "small breed",
+            "special diet"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/royal-canin-small-breed-sensitive-digestion.png"
+    },
+    {
+        "name": "Purina ONE Healthy Senior Dry Dog Food",
+        "category": "Pet Food",
+        "subcategory": "Special Diets",
+        "price": 28.00,
+        "brand": "Purina ONE",
+        "stock_quantity": 45,
+    "description": "Nutrient-dense senior formula with enhanced botanical oils, high-quality protein for lean muscle preservation, and natural sources of glucosamine to support joint health. Fortified with vitamins A & E for immune resilience.",
+        "tags": [
+            "dog",
+            "senior",
+            "special diet"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/purina-one-healthy-senior.png"
+    },
+    {
+        "name": "Ruffwear Front Range Harness",
+        "category": "Pet Accessories",
+        "subcategory": "Collars, Leashes & Harnesses",
+        "price": 39.95,
+        "brand": "Ruffwear",
+        "stock_quantity": 20,
+    "description": "Everyday adventure harness featuring foam-padded chest and belly panels for comfort, dual leash attachment points (aluminum V-ring & reinforced webbing), and four points of adjustment for a secure ergonomic fit.",
+        "tags": [
+            "dog",
+            "harness"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/ruffwear-front-range-harness.png"
+    },
+    {
+        "name": "Blueberry Pet Classic Collar",
+        "category": "Pet Accessories",
+        "subcategory": "Collars, Leashes & Harnesses",
+        "price": 12.99,
+        "brand": "Blueberry Pet",
+        "stock_quantity": 150,
+    "description": "Durable yet soft nylon collar with high-density webbing, eco-friendly plastic buckle, and nickel-coated D-ring. Fully adjustable design suited for cats or toy dog breeds seeking everyday style and comfort.",
+        "tags": [
+            "cat",
+            "dog",
+            "collar"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/blueberry-pet-classic-collar.png"
+    },
+    {
+        "name": "Kurgo Tru-Fit Smart Harness",
+        "category": "Pet Accessories",
+        "subcategory": "Collars, Leashes & Harnesses",
+        "price": 29.95,
+        "brand": "Kurgo",
+        "stock_quantity": 30,
+    "description": "Crash-tested travel harness engineered with all-steel nesting buckles and broad padded chest plate to distribute force. Functions as both walking and automotive restraint harness with seatbelt tether compatibility.",
+        "tags": [
+            "dog",
+            "harness",
+            "safety"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/kurgo-tru-fit-smart-harness.png"
+    },
+    {
+        "name": "Rabbitgoo No-Pull Harness & Leash Set",
+        "category": "Pet Accessories",
+        "subcategory": "Collars, Leashes & Harnesses",
+        "price": 24.99,
+        "brand": "Rabbitgoo",
+        "stock_quantity": 50,
+    "description": "Anti-pull harness leveraging dual metal leash attachment points including a front chest ring to reduce pulling and improve steering. Breathable mesh padding and reflective trims enhance comfort and visibility.",
+        "tags": [
+            "dog",
+            "harness",
+            "leash",
+            "no-pull"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/rabbitgoo-no-pull-harness-leash-set.png"
+    },
+    {
+        "name": "Big Barker Orthopedic Dog Bed (Medium)",
+        "category": "Pet Accessories",
+        "subcategory": "Beds & Blankets",
+        "price": 129.00,
+        "brand": "Big Barker",
+        "stock_quantity": 15,
+    "description": "Premium orthopedic foam mattress calibrated to support joint alignment and relieve pressure points for medium and large dogs. Removable micro-suede cover is machine washable and designed to retain loft over time.",
+        "tags": [
+            "dog",
+            "bed",
+            "orthopedic"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/big-barker-orthopedic-dog-bed.png"
+    },
+    {
+        "name": "K&H Self-Warming Pet Pad",
+        "category": "Pet Accessories",
+        "subcategory": "Beds & Blankets",
+        "price": 34.99,
+        "brand": "K&H",
+        "stock_quantity": 40,
+    "description": "Thermal self-warming pad lined with layer that reflects pets' body heat without electricity. Non-slip bottom and plush faux lambskin surface provide year‑round cozy resting comfort for cats and small dogs.",
+        "tags": [
+            "cat",
+            "dog",
+            "blanket",
+            "warming"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/kh-self-warming-pet-pad.png"
+    },
+    {
+        "name": "Best Friends by Sheri Donut Cuddler",
+        "category": "Pet Accessories",
+        "subcategory": "Beds & Blankets",
+        "price": 39.99,
+        "brand": "Best Friends by Sheri",
+        "stock_quantity": 60,
+    "description": "Ultra-soft shag faux fur donut cuddler bed offering head and neck support with a raised rim and deep crevice center that encourages burrowing. Helps promote better sleep and warmth for anxious pets.",
+        "tags": [
+            "dog",
+            "cat",
+            "bed"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/donut-cuddler-bed.png"
+    },
+    {
+        "name": "Petfusion Ultimate Bolster Bed",
+        "category": "Pet Accessories",
+        "subcategory": "Beds & Blankets",
+        "price": 89.95,
+        "brand": "Petfusion",
+        "stock_quantity": 25,
+    "description": "Supportive solid memory foam base paired with recycled poly-fill bolsters to cradle joints and spine. Water-resistant removable cover plus non-skid bottom makes it ideal for older or orthopedic-needs dogs.",
+        "tags": [
+            "dog",
+            "bed",
+            "memory foam"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/petfusion-ultimate-bolster-bed.png"
+    },
+    {
+        "name": "Stainless Steel Slow Feeder Bowl",
+        "category": "Pet Accessories",
+        "subcategory": "Bowls & Feeders",
+        "price": 24.95,
+        "brand": "Outward Hound",
+        "stock_quantity": 70,
+    "description": "Innovative slow-feeder design featuring ridged interior patterns that naturally pace eating, helping reduce gulping, bloat risk, and indigestion in fast‑eating dogs. Heavy-duty, food‑safe materials are easy to clean and encourage mindful mealtime engagement.",
+        "tags": [
+            "dog",
+            "bowl",
+            "slow feeder"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/stainless-steel-slow-feeder-bowl.png"
+    },
+    {
+        "name": "Petmate Replendish Automatic Waterer",
+        "category": "Pet Accessories",
+        "subcategory": "Bowls & Feeders",
+        "price": 23.99,
+        "brand": "Petmate",
+        "stock_quantity": 50,
+    "description": "Gravity-driven reservoir system that continuously dispenses fresh water into a spill‑resistant basin, extending time between refills. Built‑in microban style surfaces (bottle dependent) help discourage bacterial growth and support consistent daily hydration for multi‑pet homes.",
+        "tags": [
+            "dog",
+            "cat",
+            "waterer"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/petmate-replendish-automatic-waterer.png"
+    },
+    {
+        "name": "Yeti Boomer Dog Bowl",
+        "category": "Pet Accessories",
+        "subcategory": "Bowls & Feeders",
+        "price": 29.95,
+        "brand": "Yeti",
+        "stock_quantity": 35,
+    "description": "Double‑wall, kitchen‑grade stainless steel bowl engineered for extreme durability, rust resistance, and reduced temperature transfer. Non‑slip ring helps keep meals in place while rounded interior edges simplify thorough cleaning after raw or wet food.",
+        "tags": [
+            "dog",
+            "bowl",
+            "durable"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/yeti-boomer-dog-bowl.png"
+    },
+    {
+        "name": "Catit Flower Fountain",
+        "category": "Pet Accessories",
+        "subcategory": "Bowls & Feeders",
+        "price": 29.99,
+        "brand": "Catit",
+        "stock_quantity": 45,
+    "description": "Triple‑flow adjustable pet fountain with recirculating filtration that oxygenates and cools water to entice picky cats to drink more. Multi‑layer filter helps reduce hair, debris, and mineral impurities supporting urinary tract wellness.",
+        "tags": [
+            "cat",
+            "waterer",
+            "hydration"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/catit-flower-fountain.png"
+    },
+    {
+        "name": "Frisco Halloween Pumpkin Pet Costume",
+        "category": "Pet Accessories",
+        "subcategory": "Clothing & Costumes",
+        "price": 15.99,
+        "brand": "Frisco",
+        "stock_quantity": 50,
+    "description": "Festive plush pumpkin costume crafted with lightweight, breathable fabric panels and adjustable hook‑and‑loop straps for secure, comfy seasonal wear on small dogs or cats. Adds photo‑ready charm without restricting natural movement.",
+        "tags": [
+            "dog",
+            "cat",
+            "costume",
+            "halloween"
+        ],
+        "animal": "dog/cat",
+    "image_url": "https://i.ibb.co/placeholder/frisco-halloween-pumpkin-pet-costume.png"
+    },
+    {
+        "name": "Ruffwear Polartec Jacket",
+        "category": "Pet Accessories",
+        "subcategory": "Clothing & Costumes",
+        "price": 64.95,
+        "brand": "Ruffwear",
+        "stock_quantity": 30,
+    "description": "Technical Polartec fleece layer delivering breathable warmth, quick‑dry performance, and low bulk insulation for cold‑weather trail or urban walks. Athletic tailoring and stretch panels promote full range of motion during active play.",
+        "tags": [
+            "dog",
+            "clothing",
+            "jacket"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/ruffwear-polartec-jacket.png"
+    },
+    {
+        "name": "RC Pets Snuggle Fleece Hoodie",
+        "category": "Pet Accessories",
+        "subcategory": "Clothing & Costumes",
+        "price": 29.95,
+        "brand": "RC Pets",
+        "stock_quantity": 45,
+    "description": "Cozy pullover fleece hoodie tailored for toy and small breeds, featuring a softly brushed interior for thermal retention, integrated leash portal, and ribbed cuffs that help trap warmth while maintaining a relaxed casual fit.",
+        "tags": [
+            "dog",
+            "clothing",
+            "hoodie"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/rc-pets-snuggle-fleece-hoodie.png"
+    },
+    {
+        "name": "Gooby Rain Buddy Raincoat",
+        "category": "Pet Accessories",
+        "subcategory": "Clothing & Costumes",
+        "price": 24.95,
+        "brand": "Gooby",
+        "stock_quantity": 40,
+    "description": "Lightweight waterproof (PU‑coated) shell with adjustable belly closure and ergonomic hood that shields neck and shoulders from rain. High‑visibility accents and harness‑friendly opening support safe, dry walks in wet conditions.",
+        "tags": [
+            "dog",
+            "clothing",
+            "raincoat"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/gooby-rain-buddy-raincoat.png"
+    },
+    {
+        "name": "Kong Classic Dog Toy",
+        "category": "Pet Toys",
+        "subcategory": "Chew Toys",
+        "price": 14.99,
+        "brand": "Kong",
+        "stock_quantity": 80,
+    "description": "Iconic natural rubber enrichment toy engineered for unpredictable bounce and long‑lasting chew satisfaction. Hollow core can be packed with kibble, pastes, or frozen treats to stimulate mental engagement and reduce boredom.",
+        "tags": [
+            "dog",
+            "toy",
+            "chew"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/kong-classic-dog-toy.png"
+    },
+    {
+        "name": "Nylabone Dura Chew",
+        "category": "Pet Toys",
+        "subcategory": "Chew Toys",
+        "price": 11.99,
+        "brand": "Nylabone",
+        "stock_quantity": 90,
+    "description": "Veterinarian‑recommended nylon chew engineered with textured surfaces and flavor infusion to satisfy instinctive chewing while discouraging destructive behaviors. Designed for powerful chewers seeking sustained engagement.",
+        "tags": [
+            "dog",
+            "toy",
+            "chew"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/nylabone-dura-chew.png"
+    },
+    {
+        "name": "JW Pet Mega Ball",
+        "category": "Pet Toys",
+        "subcategory": "Chew Toys",
+        "price": 9.49,
+        "brand": "JW Pet",
+        "stock_quantity": 100,
+    "description": "Resilient, high‑bounce squeaker ball constructed from thick rubber walls for extended fetch sessions. Textured exterior improves grip, while embedded squeak element sparks interactive drive and mental stimulation.",
+        "tags": [
+            "dog",
+            "toy",
+            "chew",
+            "interactive"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/jw-pet-mega-ball.png"
+    },
+    {
+        "name": "Benebone Wishbone Chew Toy",
+        "category": "Pet Toys",
+        "subcategory": "Chew Toys",
+        "price": 17.99,
+        "brand": "Benebone",
+        "stock_quantity": 60,
+    "description": "Ergonomic wishbone shape offers multiple prying grip angles, promoting front‑paw engagement and targeted chewing. Crafted from robust nylon infused with natural bacon flavor to sustain interest without messy residue.",
+        "tags": [
+            "dog",
+            "toy",
+            "chew",
+            "bacon"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/benebone-wishbone-chew-toy.png"
+    },
+    {
+        "name": "SmartyKat Skitter Critters",
+        "category": "Pet Toys",
+        "subcategory": "Interactive Toys",
+        "price": 7.99,
+        "brand": "SmartyKat",
+        "stock_quantity": 70,
+    "description": "Lightweight plush mice infused with premium catnip to trigger stalking, batting, and pounce behaviors that satisfy predatory play cycles. Soft exterior and balanced size encourage solo or multi‑cat interactive engagement.",
+        "tags": [
+            "cat",
+            "toy",
+            "interactive",
+            "catnip"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/smartykat-skitter-critters.png"
+    },
+    {
+        "name": "PetSafe Busy Buddy Tug-A-Jugs",
+        "category": "Pet Toys",
+        "subcategory": "Interactive Toys",
+        "price": 14.99,
+        "brand": "PetSafe",
+        "stock_quantity": 50,
+    "description": "Multifunctional puzzle toy combining tug, shake, and treat‑dispensing mechanics to prolong engagement and slow treat consumption. Durable bottle chamber releases kibble intermittently, reinforcing problem‑solving behaviors.",
+        "tags": [
+            "dog",
+            "toy",
+            "interactive",
+            "treat"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/petsafe-busy-buddy-tug-a-jug.png"
+    },
+    {
+        "name": "Cat Dancer Rainbow Wand",
+        "category": "Pet Toys",
+        "subcategory": "Interactive Toys",
+        "price": 5.99,
+        "brand": "Cat Dancer",
+        "stock_quantity": 95,
+    "description": "Colorful ribbon wand teaser designed to simulate erratic prey movement, promoting aerobic exercise, coordination, and bonding through interactive play. Lightweight, flexible filament encourages extended chase sequences.",
+        "tags": [
+            "cat",
+            "toy",
+            "interactive"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/cat-dancer-rainbow-wand.png"
+    },
+    {
+        "name": "Outward Hound Hide-A-Squirrel",
+        "category": "Pet Toys",
+        "subcategory": "Interactive Toys",
+        "price": 21.99,
+        "brand": "Outward Hound",
+        "stock_quantity": 40,
+    "description": "Interactive plush puzzle set featuring a soft tree trunk and multiple squeaky squirrels that encourage natural hunting instincts. Promotes problem solving, reduces boredom, and offers gentle indoor play for moderate chewers.",
+        "tags": [
+            "dog",
+            "toy",
+            "interactive",
+            "plush"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/outward-hound-hide-a-squirrel.png"
+    },
+    {
+        "name": "KONG Cozie Marvin Moose",
+        "category": "Pet Toys",
+        "subcategory": "Plush Toys",
+        "price": 8.99,
+        "brand": "Kong",
+        "stock_quantity": 120,
+    "description": "Cuddly plush moose constructed with an extra layer of fabric for improved durability and a single internal squeaker to spark engagement. Ideal for light to moderate chewers seeking comfort and gentle play.",
+        "tags": [
+            "dog",
+            "toy",
+            "plush"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/kong-cozie-marvin-moose.png"
+    },
+    {
+        "name": "ZippyPaws Skinny Peltz No Stuffing Plush",
+        "category": "Pet Toys",
+        "subcategory": "Plush Toys",
+        "price": 7.99,
+        "brand": "ZippyPaws",
+        "stock_quantity": 130,
+    "description": "Ultra-slim, stuffing‑free plush critter boasting multiple embedded squeakers that maintain auditory interest without interior filling mess. Perfect for shake, toss, and supervised squeak sessions.",
+        "tags": [
+            "dog",
+            "toy",
+            "plush",
+            "squeaker"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/zippypaws-skinny-peltz.png"
+    },
+    {
+        "name": "Petlou Snuggles Hedgehog Plush",
+        "category": "Pet Toys",
+        "subcategory": "Plush Toys",
+        "price": 9.50,
+        "brand": "Petlou",
+        "stock_quantity": 80,
+    "description": "Textured plush hedgehog featuring a mix of faux fur and knit fabrics to engage tactile curiosity while remaining soft enough for snuggling. Contains a mild squeaker to encourage light interactive play.",
+        "tags": [
+            "dog",
+            "toy",
+            "plush"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/petlou-snuggles-hedgehog.png"
+    },
+    {
+        "name": "Frisco Plush Fish Cat Toy",
+        "category": "Pet Toys",
+        "subcategory": "Plush Toys",
+        "price": 4.99,
+        "brand": "Frisco",
+        "stock_quantity": 110,
+    "description": "Soft, lightweight fish‑shaped plush sized for feline batting, wrestling, and carry play. Contains a crinkle core and light catnip infusion to stimulate predatory sequence behaviors without overwhelming sensitive cats.",
+        "tags": [
+            "cat",
+            "toy",
+            "plush"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/frisco-plush-fish-cat-toy.png"
+    },
+    {
+        "name": "ChuckIt! Ultra Ball",
+        "category": "Pet Toys",
+        "subcategory": "Training Toys",
+        "price": 7.99,
+        "brand": "ChuckIt!",
+        "stock_quantity": 70,
+    "description": "Ultra‑high bounce, durable rubber fetch ball engineered for superior visibility and extended outdoor training sessions. Textured surface enhances grip for wet retrieval while resisting cracking and puncture from vigorous play.",
+        "tags": [
+            "dog",
+            "toy",
+            "training",
+            "fetch"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/chuckit-ultra-ball.png"
+    },
+    {
+        "name": "ZippyPaws IQ Treat Ball",
+        "category": "Pet Toys",
+        "subcategory": "Training Toys",
+        "price": 14.99,
+        "brand": "ZippyPaws",
+        "stock_quantity": 55,
+    "description": "Adjustable difficulty treat‑dispensing sphere encouraging slower eating and mental stimulation for food‑motivated cats. Internal labyrinth releases kibble intermittently, promoting problem‑solving and active paw manipulation.",
+        "tags": [
+            "cat",
+            "toy",
+            "training",
+            "puzzle"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/zippypaws-iq-treat-ball.png"
+    },
+    {
+        "name": "Trixie Flip Board",
+        "category": "Pet Toys",
+        "subcategory": "Training Toys",
+        "price": 19.99,
+        "brand": "Trixie",
+        "stock_quantity": 45,
+    "description": "Multi-compartment strategy board combining sliders, flaps, and lift‑out covers to challenge canine focus and scent tracking. Encourages cognitive development and reduces boredom through reward‑based exploration.",
+        "tags": [
+            "dog",
+            "toy",
+            "training",
+            "puzzle"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/trixie-flip-board.png"
+    },
+    {
+        "name": "Nina Ottosson by Outward Hound Interactive Puzzle",
+        "category": "Pet Toys",
+        "subcategory": "Training Toys",
+        "price": 24.99,
+        "brand": "Outward Hound",
+        "stock_quantity": 30,
+    "description": "Intermediate (Level 2) composite puzzle featuring rotating discs and sliding covers that conceal treat wells. Designed to elevate problem‑solving difficulty while maintaining safe, frustration‑mitigated engagement for motivated dogs.",
+        "tags": [
+            "dog",
+            "toy",
+            "training",
+            "puzzle"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/nina-ottosson-interactive-puzzle.png"
+    },
+    {
+        "name": "FURminator deShedding Tool",
+        "category": "Pet Health & Care",
+        "subcategory": "Grooming Products",
+        "price": 34.95,
+        "brand": "FURminator",
+        "stock_quantity": 40,
+    "description": "Professional‑grade stainless steel edge reaches through topcoat to gently remove loose undercoat hair, helping reduce seasonal shedding up to 90% when used regularly. Ergonomic handle and eject button streamline grooming sessions.",
+        "tags": [
+            "dog",
+            "cat",
+            "grooming",
+            "shedding"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/furminator-deshedding-tool.png"
+    },
+    {
+        "name": "Burt’s Bees for Pets Oatmeal Shampoo",
+        "category": "Pet Health & Care",
+        "subcategory": "Grooming Products",
+        "price": 9.99,
+        "brand": "Burt’s Bees",
+        "stock_quantity": 70,
+    "description": "Mild pH‑balanced shampoo blending colloidal oatmeal, honey, and beeswax derivatives to cleanse while soothing dry, itchy skin. Free from sulfates and artificial fragrances to minimize irritation in sensitive coats.",
+        "tags": [
+            "dog",
+            "cat",
+            "grooming",
+            "shampoo"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/burts-bees-oatmeal-shampoo.png"
+    },
+    {
+        "name": "Safari Professional Nail Trimmer",
+        "category": "Pet Health & Care",
+        "subcategory": "Grooming Products",
+        "price": 12.50,
+        "brand": "Safari",
+        "stock_quantity": 80,
+    "description": "Precision hardened steel nail trimmer with safety stop bar and non‑slip rubberized grips to reduce over‑cutting risk. Spring‑loaded mechanism delivers smooth controlled cuts for at‑home grooming confidence.",
+        "tags": [
+            "dog",
+            "cat",
+            "grooming",
+            "nail"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/safari-professional-nail-trimmer.png"
+    },
+    {
+        "name": "Petkin 4-Pack Slicker Brushes",
+        "category": "Pet Health & Care",
+        "subcategory": "Grooming Products",
+        "price": 16.99,
+        "brand": "Petkin",
+        "stock_quantity": 50,
+    "description": "Set of ergonomic slicker brushes featuring fine angled pins that gently detangle knots, lift loose hair, and distribute natural oils across coat. Reduces mat formation when incorporated into routine grooming.",
+        "tags": [
+            "dog",
+            "cat",
+            "grooming",
+            "brush"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/petkin-slicker-brushes.png"
+    },
+    {
+        "name": "Frontline Plus for Dogs (Medium-Large)",
+        "category": "Pet Health & Care",
+        "subcategory": "Flea & Tick Control",
+        "price": 52.99,
+        "brand": "Frontline",
+        "stock_quantity": 35,
+    "description": "Veterinary‑trusted monthly topical solution providing waterproof protection against fleas, ticks, and chewing lice. Disrupts life cycle stages to curb reinfestation and support year‑round parasite management.",
+        "tags": [
+            "dog",
+            "health",
+            "flea",
+            "tick"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/frontline-plus-dogs.png"
+    },
+    {
+        "name": "Advantage II for Cats",
+        "category": "Pet Health & Care",
+        "subcategory": "Flea & Tick Control",
+        "price": 45.00,
+        "brand": "Advantage",
+        "stock_quantity": 40,
+    "description": "Fast‑acting topical flea treatment targeting adult fleas, larvae, and eggs on cats. Continues working for a full month to break reproductive cycles and reduce home environmental contamination.",
+        "tags": [
+            "cat",
+            "health",
+            "flea"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/advantage-ii-cats.png"
+    },
+    {
+        "name": "Seresto Flea & Tick Collar",
+        "category": "Pet Health & Care",
+        "subcategory": "Flea & Tick Control",
+        "price": 49.99,
+        "brand": "Seresto",
+        "stock_quantity": 25,
+    "description": "Long‑duration odorless pest control collar releasing low‑dose active ingredients to repel and kill fleas and ticks for up to 8 months. Water‑resistant design maintains efficacy after bathing or rain exposure.",
+        "tags": [
+            "dog",
+            "health",
+            "flea",
+            "tick"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/seresto-flea-tick-collar.png"
+    },
+    {
+        "name": "Revolution Plus for Cats",
+        "category": "Pet Health & Care",
+        "subcategory": "Flea & Tick Control",
+        "price": 59.99,
+        "brand": "Revolution Plus",
+        "stock_quantity": 30,
+    "description": "Broad‑spectrum monthly spot‑on combining parasiticides to prevent heartworm disease and eliminate fleas, ticks, ear mites, and certain intestinal parasites—supporting comprehensive feline parasite control.",
+        "tags": [
+            "cat",
+            "health",
+            "flea",
+            "tick"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/revolution-plus-cats.png"
+    },
+    {
+        "name": "Nutri-Vet Multivitamin Chewables",
+        "category": "Pet Health & Care",
+        "subcategory": "Vitamins & Supplements",
+        "price": 19.99,
+        "brand": "Nutri-Vet",
+        "stock_quantity": 80,
+    "description": "Palatable liver‑flavored chewable supplying essential vitamins, minerals, and antioxidants that help fill nutritional gaps in standard adult canine diets. Supports immune health, metabolism, and overall vitality.",
+        "tags": [
+            "dog",
+            "vitamins"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/nutri-vet-multivitamin-chewables.png"
+    },
+    {
+        "name": "VetriScience C.E.T. Enzymatic Oral Hygiene Tablets",
+        "category": "Pet Health & Care",
+        "subcategory": "Vitamins & Supplements",
+        "price": 24.50,
+        "brand": "VetriScience",
+        "stock_quantity": 60,
+    "description": "Enzymatic oral hygiene tablets formulated to help reduce plaque biofilm accumulation, support gum health, and freshen breath when used alongside regular brushing or dental chews.",
+        "tags": [
+            "dog",
+            "cat",
+            "supplements",
+            "oral"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/vetriscience-enzymatic-oral-tablets.png"
+    },
+    {
+        "name": "Tomlyn L-Lysine for Cats",
+        "category": "Pet Health & Care",
+        "subcategory": "Vitamins & Supplements",
+        "price": 16.99,
+        "brand": "Tomlyn",
+        "stock_quantity": 70,
+    "description": "L‑Lysine supplement powder designed to support immune modulation and respiratory tract wellness in cats, especially those prone to herpesvirus flare‑ups. Chicken flavor encourages voluntary intake.",
+        "tags": [
+            "cat",
+            "vitamins",
+            "immune"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/tomlyn-l-lysine-cats.png"
+    },
+    {
+        "name": "Welactin Fish Oil Capsules (Omega-3) for Dogs & Cats",
+        "category": "Pet Health & Care",
+        "subcategory": "Vitamins & Supplements",
+        "price": 29.99,
+        "brand": "Welactin",
+        "stock_quantity": 50,
+    "description": "Pharmaceutical‑grade marine omega‑3 (EPA & DHA) softgels promoting healthy skin barrier, glossy coat, cognitive function, and joint comfort in dogs and cats. Supports systemic inflammatory balance with routine use.",
+        "tags": [
+            "dog",
+            "cat",
+            "supplements",
+            "omega-3"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/welactin-fish-oil-capsules.png"
+    },
+    {
+        "name": "Pet-Tabs Pet Supplement for Dogs & Cats (Multi)",
+        "category": "Pet Health & Care",
+        "subcategory": "First Aid & Medicine",
+        "price": 13.99,
+        "brand": "Pet-Tabs",
+        "stock_quantity": 90,
+    "description": "Balanced daily multivitamin supplying essential water‑ and fat‑soluble vitamins plus trace minerals to complement standard canine and feline diets. Helps maintain metabolic efficiency and immune resilience.",
+        "tags": [
+            "dog",
+            "cat",
+            "medicine",
+            "vitamins"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/pet-tabs-multi.png"
+    },
+    {
+        "name": "Cornell Dental Rinse",
+        "category": "Pet Health & Care",
+        "subcategory": "First Aid & Medicine",
+        "price": 12.50,
+        "brand": "Cornell",
+        "stock_quantity": 60,
+    "description": "Alcohol-free antibacterial oral rinse formulated to reduce plaque biofilm, freshen breath, and support healthy gums when used between brushings. Easy squeeze applicator allows targeted application along the gumline.",
+        "tags": [
+            "dog",
+            "cat",
+            "medicine",
+            "oral"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/cornell-dental-rinse.png"
+    },
+    {
+        "name": "Zymox Otic Enzymatic Ear Treatment",
+        "category": "Pet Health & Care",
+        "subcategory": "First Aid & Medicine",
+        "price": 34.95,
+        "brand": "Zymox",
+        "stock_quantity": 40,
+    "description": "Advanced enzymatic otic solution containing a patented LP3 enzyme system plus low-dose hydrocortisone to soothe itching, break down microbial colonies, and assist in managing mild fungal or bacterial ear irritations.",
+        "tags": [
+            "dog",
+            "cat",
+            "medicine",
+            "ear"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/zymox-otic-enzymatic-ear-treatment.png"
+    },
+    {
+        "name": "Nutri-Cal High Calorie Gel for Dogs & Cats",
+        "category": "Pet Health & Care",
+        "subcategory": "First Aid & Medicine",
+        "price": 16.75,
+        "brand": "Tomlyn",
+        "stock_quantity": 55,
+    "description": "Highly palatable calorie-dense gel supplement providing concentrated energy, vitamins, and omega fatty acids—ideal for underweight, recovering, or finicky pets requiring nutritional reinforcement.",
+        "tags": [
+            "dog",
+            "cat",
+            "medicine",
+            "calorie-supplement"
+        ],
+        "animal": "universal",
+    "image_url": "https://i.ibb.co/placeholder/nutri-cal-high-calorie-gel.png"
+    },
+    {
+        "name": "MidWest LifeStages Single Door Crate",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Cages & Crates",
+        "price": 79.99,
+        "brand": "MidWest",
+        "stock_quantity": 25,
+    "description": "Fold-flat heavy-gauge wire crate with removable composite pan, double slide-bolt latches, and adjustable puppy divider panel to adapt space as your dog grows. Provides secure containment and ventilation.",
+        "tags": [
+            "dog",
+            "crate"
+        ],
+        "animal": "dog",
+    "image_url": "https://i.ibb.co/placeholder/midwest-lifestages-single-door-crate.png"
+    },
+    {
+        "name": "Ferplast Rabbit Residence Cage",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Cages & Crates",
+        "price": 129.95,
+        "brand": "Ferplast",
+        "stock_quantity": 15,
+    "description": "Spacious multi-level rabbit habitat featuring deep litter base, elevated resting platform, secure wire upper frame, and front access doors for simplified cleaning and enrichment swapping.",
+        "tags": [
+            "small animal",
+            "cage"
+        ],
+        "animal": "small animal",
+    "image_url": "https://i.ibb.co/placeholder/ferplast-rabbit-residence-cage.png"
+    },
+    {
+        "name": "Kaytee CritterTrail Habitat",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Cages & Crates",
+        "price": 54.99,
+        "brand": "Kaytee",
+        "stock_quantity": 20,
+    "description": "Expandable small pet habitat with connectable tunnel ports, deep bedding area for burrowing, integrated exercise wheel, and ventilated top—encouraging natural digging and exploratory behaviors.",
+        "tags": [
+            "small animal",
+            "habitat"
+        ],
+        "animal": "small animal",
+    "image_url": "https://i.ibb.co/placeholder/kaytee-crittertrail-habitat.png"
+    },
+    {
+        "name": "Prevue Pet Flight Cage 16",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Cages & Crates",
+        "price": 119.95,
+        "brand": "Prevue Pet",
+        "stock_quantity": 30,
+    "description": "Roomy horizontal flight cage designed for finches, parakeets, or canaries with multiple perches, dual feeder cups, and large front doors to facilitate enrichment rotation and social interaction.",
+        "tags": [
+            "bird",
+            "cage"
+        ],
+        "animal": "bird",
+    "image_url": "https://i.ibb.co/placeholder/prevue-pet-flight-cage-16.png"
+    },
+    {
+        "name": "Aqueon 10-Gallon Starter Kit",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Aquariums & Fish Tanks",
+        "price": 89.99,
+        "brand": "Aqueon",
+        "stock_quantity": 15,
+    "description": "Complete 10-gallon starter aquarium kit including quiet power filter, preset heater, LED hood, and basic setup accessories—ideal for beginners establishing a stable tropical community tank.",
+        "tags": [
+            "fish",
+            "aquarium",
+            "kit"
+        ],
+        "animal": "fish",
+    "image_url": "https://i.ibb.co/placeholder/aqueon-10-gallon-starter-kit.png"
+    },
+    {
+        "name": "Marineland Portrait LED Aquarium Kit (5-gal)",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Aquariums & Fish Tanks",
+        "price": 59.99,
+        "brand": "Marineland",
+        "stock_quantity": 20,
+    "description": "Portrait-style 5-gallon aquarium featuring curved glass profile, hidden filtration chamber, and day/night LED light modes to showcase aquascapes while maintaining discreet equipment integration.",
+        "tags": [
+            "fish",
+            "aquarium",
+            "kit"
+        ],
+        "animal": "fish",
+    "image_url": "https://i.ibb.co/placeholder/marineland-portrait-led-aquarium-kit.png"
+    },
+    {
+        "name": "Fluval Edge Aquarium (Marine LED, 6-gal)",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Aquariums & Fish Tanks",
+        "price": 129.99,
+        "brand": "Fluval",
+        "stock_quantity": 10,
+    "description": "Modern sealed-top nano aquarium with integrated filtration and 3D visual depth effect—suitable for minimalist freshwater scapes or carefully planned nano reef (with proper supplemental equipment).",
+        "tags": [
+            "fish",
+            "aquarium",
+            "designer"
+        ],
+        "animal": "fish",
+    "image_url": "https://i.ibb.co/placeholder/fluval-edge-aquarium-marine-led.png"
+    },
+    {
+        "name": "Tetra Whisper Starter Kit (5-gal)",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Aquariums & Fish Tanks",
+        "price": 49.99,
+        "brand": "Tetra",
+        "stock_quantity": 25,
+    "description": "Value-focused 5-gallon kit bundling whisper-quiet filter, energy-efficient LED hood, and setup guide—supporting first-time fish keepers in establishing healthy cycling practices.",
+        "tags": [
+            "fish",
+            "aquarium",
+            "kit"
+        ],
+        "animal": "fish",
+    "image_url": "https://i.ibb.co/placeholder/tetra-whisper-starter-kit.png"
+    },
+    {
+        "name": "Dr. Elsey’s Kitten Attract Litter",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Litter Boxes & Bedding",
+        "price": 19.99,
+        "brand": "Dr. Elsey’s",
+        "stock_quantity": 60,
+    "description": "Premium clay clumping litter infused with natural herbal attractants encouraging proper litter box habits in training kittens. Forms tight low-dust clumps for simplified daily maintenance.",
+        "tags": [
+            "cat",
+            "litter"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/dr-elseys-kitten-attract-litter.png"
+    },
+    {
+        "name": "World’s Best Cat Litter – Multiple Cat Formula",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Litter Boxes & Bedding",
+        "price": 24.99,
+        "brand": "World’s Best",
+        "stock_quantity": 50,
+    "description": "Natural compressed corn litter delivering rapid clump formation, strong ammonia odor control, and lightweight handling—optimized for multi-cat households seeking reduced tracking and dust.",
+        "tags": [
+            "cat",
+            "litter"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/worlds-best-cat-litter-multi-cat.png"
+    },
+    {
+        "name": "Kaytee Aspen Bedding",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Litter Boxes & Bedding",
+        "price": 8.99,
+        "brand": "Kaytee",
+        "stock_quantity": 80,
+    "description": "Kiln-dried shredded aspen bedding free from aromatic oils, offering absorbent low-dust habitat substrate suitable for small mammals with sensitive respiratory systems.",
+        "tags": [
+            "small animal",
+            "bedding"
+        ],
+        "animal": "small animal",
+    "image_url": "https://i.ibb.co/placeholder/kaytee-aspen-bedding.png"
+    },
+    {
+        "name": "Sand-King Clumping Cat Litter",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Litter Boxes & Bedding",
+        "price": 17.49,
+        "brand": "Sand-King",
+        "stock_quantity": 40,
+    "description": "Low-dust mineral clumping litter engineered for firm scoopable clumps and effective odor encapsulation, supporting a cleaner box environment for adult cats.",
+        "tags": [
+            "cat",
+            "litter"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/sand-king-clumping-cat-litter.png"
+    },
+    {
+        "name": "Armarkat Cat Tree Model A5201",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Perches & Scratching Posts",
+        "price": 69.99,
+        "brand": "Armarkat",
+        "stock_quantity": 20,
+    "description": "Multi-tiered cat activity tree featuring sisal-wrapped posts, varied perch heights, and a cozy hideaway to encourage climbing, scratching, and vertical territory satisfaction.",
+        "tags": [
+            "cat",
+            "scratching post",
+            "perch"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/armarkat-cat-tree-a5201.png"
+    },
+    {
+        "name": "SmartCat Ultimate Scratching Post",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Perches & Scratching Posts",
+        "price": 79.95,
+        "brand": "SmartCat",
+        "stock_quantity": 15,
+    "description": "Extra-tall sisal rope scratching post with weighted base providing stable vertical stretch surface that helps condition claws and deter furniture scratching.",
+        "tags": [
+            "cat",
+            "scratching post"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/smartcat-ultimate-scratching-post.png"
+    },
+    {
+        "name": "K&H EZ Mount Bird Perch Heater",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Perches & Scratching Posts",
+        "price": 34.99,
+        "brand": "K&H",
+        "stock_quantity": 25,
+    "description": "Window-mount heated bird perch supplying gentle radiant warmth to support comfort and circulation during cooler months; tool-free suction design allows seasonal repositioning.",
+        "tags": [
+            "bird",
+            "perch",
+            "heater"
+        ],
+        "animal": "bird",
+    "image_url": "https://i.ibb.co/placeholder/kh-ez-mount-bird-perch-heater.png"
+    },
+    {
+        "name": "Petlinks Kitty Hottie Scratch Lounge",
+        "category": "Pet Habitat & Supplies",
+        "subcategory": "Perches & Scratching Posts",
+        "price": 39.99,
+        "brand": "Petlinks",
+        "stock_quantity": 30,
+    "description": "Corrugated cardboard lounge and scratcher combo with ergonomic curve encouraging full-body stretch while providing a resting cradle—includes catnip to entice initial interaction.",
+        "tags": [
+            "cat",
+            "scratching post",
+            "lounge"
+        ],
+        "animal": "cat",
+    "image_url": "https://i.ibb.co/placeholder/petlinks-kitty-hottie-scratch-lounge.png"
+    },
+    {
+        "name": "Kaytee Fiesta Bird Toy Set",
+        "category": "Specialty Pets",
+        "subcategory": "Birds (food, cages, toys)",
+        "price": 12.99,
+        "brand": "Kaytee",
+        "stock_quantity": 70,
+    "description": "Assortment of colorful chew and shred toys promoting mental stimulation, beak conditioning, and natural foraging behaviors in small to medium companion birds.",
+        "tags": [
+            "bird",
+            "toy"
+        ],
+        "animal": "bird",
+    "image_url": "https://i.ibb.co/placeholder/kaytee-fiesta-bird-toy-set.png"
+    },
+    {
+        "name": "Zupreem FruitBlend Parrot Food",
+        "category": "Specialty Pets",
+        "subcategory": "Birds (food, cages, toys)",
+        "price": 14.49,
+        "brand": "Zupreem",
+        "stock_quantity": 65,
+    "description": "Balanced extruded parrot diet with distinct fruit shapes and natural flavors delivering consistent nutrition, controlled calcium, and fortified vitamins for medium to large hookbills.",
+        "tags": [
+            "bird",
+            "food"
+        ],
+        "animal": "bird",
+    "image_url": "https://i.ibb.co/placeholder/zupreem-fruitblend-parrot-food.png"
+    },
+    {
+        "name": "Prevue Bird Swing with Mirror",
+        "category": "Specialty Pets",
+        "subcategory": "Birds (food, cages, toys)",
+        "price": 7.99,
+        "brand": "Prevue Pet",
+        "stock_quantity": 90,
+    "description": "Lightweight acrylic swing featuring integrated mirror to encourage activity, preening behavior, and enrichment through visual and vestibular stimulation in small cage birds.",
+        "tags": [
+            "bird",
+            "toy",
+            "swing"
+        ],
+        "animal": "bird",
+    "image_url": "https://i.ibb.co/placeholder/prevue-bird-swing-mirror.png"
+    },
+    {
+        "name": "Living World Exotic Blend Canary Food",
+        "category": "Specialty Pets",
+        "subcategory": "Birds (food, cages, toys)",
+        "price": 8.99,
+        "brand": "Living World",
+        "stock_quantity": 80,
+    "description": "Nutritionally varied canary blend combining cleaned seeds, fortified pellets, and dried fruits to provide balanced energy, natural foraging interest, and feather support.",
+        "tags": [
+            "bird",
+            "food",
+            "canary"
+        ],
+        "animal": "bird",
+    "image_url": "https://i.ibb.co/placeholder/living-world-exotic-blend-canary-food.png"
+    },
+    {
+        "name": "API Tropical Fish Flakes",
+        "category": "Specialty Pets",
+        "subcategory": "Fish (tanks, filters, decor)",
+        "price": 5.99,
+        "brand": "API",
+        "stock_quantity": 110,
+    "description": "Highly digestible multi-flake formula enriched with vitamins C & E and color-enhancing carotenoids to support immune health, vibrant coloration, and clean water performance in tropical community fish.",
+        "tags": [
+            "fish",
+            "food"
+        ],
+        "animal": "fish",
+    "image_url": "https://i.ibb.co/placeholder/api-tropical-fish-flakes.png"
+    },
+    {
+        "name": "Fluval C4 Power Filter Media Packs",
+        "category": "Specialty Pets",
+        "subcategory": "Fish (tanks, filters, decor)",
+        "price": 9.49,
+        "brand": "Fluval",
+        "stock_quantity": 50,
+    "description": "Five-stage compatible media pack offering mechanical, chemical, and biological filtration components to maintain water clarity and nitrogen cycle stability in Fluval C4 power filters.",
+        "tags": [
+            "fish",
+            "filter"
+        ],
+        "animal": "fish",
+    "image_url": "https://i.ibb.co/placeholder/fluval-c4-power-filter-media-packs.png"
+    },
+    {
+        "name": "CaribSea Eco-Complete Aquarium Substrate",
+        "category": "Specialty Pets",
+        "subcategory": "Fish (tanks, filters, decor)",
+        "price": 29.99,
+        "brand": "CaribSea",
+        "stock_quantity": 40,
+    "description": "Biologically active planted aquarium substrate containing porous volcanic grains pre-charged with beneficial bacteria to accelerate cycling and root development.",
+        "tags": [
+            "fish",
+            "substrate"
+        ],
+        "animal": "fish",
+    "image_url": "https://i.ibb.co/placeholder/caribsea-eco-complete-aquarium-substrate.png"
+    },
+    {
+        "name": "Marineland Chromatic LED Clip-On Light",
+        "category": "Specialty Pets",
+        "subcategory": "Fish (tanks, filters, decor)",
+        "price": 19.99,
+        "brand": "Marineland",
+        "stock_quantity": 35,
+    "description": "Low-profile clip-on LED fixture delivering balanced daylight and accent spectrum to enhance fish coloration and plant growth in nano to mid-size tanks.",
+        "tags": [
+            "fish",
+            "lighting"
+        ],
+        "animal": "fish",
+    "image_url": "https://i.ibb.co/placeholder/marineland-chromatic-led-clip-on-light.png"
+    },
+    {
+        "name": "Zoo Med ReptiSun 10.0 UVB Lamp",
+        "category": "Specialty Pets",
+        "subcategory": "Reptiles (terrariums, heating lamps, substrate)",
+        "price": 34.99,
+        "brand": "Zoo Med",
+        "stock_quantity": 45,
+    "description": "High-output 10.0 UVB fluorescent lamp providing essential ultraviolet radiation for calcium metabolism, bone density, and shell integrity in desert-dwelling reptiles.",
+        "tags": [
+            "reptile",
+            "lamp",
+            "UVB"
+        ],
+        "animal": "reptile",
+    "image_url": "https://i.ibb.co/placeholder/zoo-med-reptisun-10-uvb-lamp.png"
+    },
+    {
+        "name": "Zilla Reptile Habitat Heater",
+        "category": "Specialty Pets",
+        "subcategory": "Reptiles (terrariums, heating lamps, substrate)",
+        "price": 19.99,
+        "brand": "Zilla",
+        "stock_quantity": 55,
+    "description": "UL-certified adhesive under-tank heater supplying consistent gentle warmth to create a thermal gradient in reptile enclosures without disturbing ambient humidity levels.",
+        "tags": [
+            "reptile",
+            "heater"
+        ],
+        "animal": "reptile",
+    "image_url": "https://i.ibb.co/placeholder/zilla-reptile-habitat-heater.png"
+    },
+    {
+        "name": "Exo Terra Desert Sand Substrate",
+        "category": "Specialty Pets",
+        "subcategory": "Reptiles (terrariums, heating lamps, substrate)",
+        "price": 8.99,
+        "brand": "Exo Terra",
+        "stock_quantity": 70,
+    "description": "Natural mineral sand substrate washed and sieved for particle consistency, creating an arid aesthetic while supporting healthy burrowing and thermoregulation behaviors in desert species.",
+        "tags": [
+            "reptile",
+            "substrate"
+        ],
+        "animal": "reptile",
+    "image_url": "https://i.ibb.co/placeholder/exo-terra-desert-sand-substrate.png"
+    },
+    {
+        "name": "Fluker's Deluxe Reptile Terrarium",
+        "category": "Specialty Pets",
+        "subcategory": "Reptiles (terrariums, heating lamps, substrate)",
+        "price": 129.95,
+        "brand": "Fluker’s",
+        "stock_quantity": 12,
+    "description": "Premium glass terrarium featuring front-sliding access doors, corrosion-resistant screen top for ventilation and UVB penetration, and cable pass-through ports for heating and misting equipment integration.",
+        "tags": [
+            "reptile",
+            "terrarium"
+        ],
+        "animal": "reptile",
+    "image_url": "https://i.ibb.co/placeholder/flukers-deluxe-reptile-terrarium.png"
+    },
+    {
+        "name": "Kaytee CritterTrail 2-Level Habitat",
+        "category": "Specialty Pets",
+        "subcategory": "Small Animals (hamsters, rabbits, guinea pigs)",
+        "price": 69.99,
+        "brand": "Kaytee",
+        "stock_quantity": 30,
+    "description": "Two-level modular habitat with expansion ports, exercise wheel, elevated feeding deck, and deep base promoting natural burrowing enrichment for hamsters and gerbils.",
+        "tags": [
+            "small animal",
+            "habitat",
+            "hamster"
+        ],
+        "animal": "small animal",
+    "image_url": "https://i.ibb.co/placeholder/kaytee-crittertrail-2-level-habitat.png"
+    },
+    {
+        "name": "Oxbow Essentials Adult Guinea Pig Food",
+        "category": "Specialty Pets",
+        "subcategory": "Small Animals (hamsters, rabbits, guinea pigs)",
+        "price": 17.99,
+        "brand": "Oxbow",
+        "stock_quantity": 45,
+    "description": "Stabilized vitamin C fortified timothy-based pellets supporting digestive efficiency, dental wear, and immune resilience in adult guinea pigs.",
+        "tags": [
+            "small animal",
+            "food",
+            "guinea pig"
+        ],
+        "animal": "small animal",
+    "image_url": "https://i.ibb.co/placeholder/oxbow-essentials-adult-guinea-pig-food.png"
+    },
+    {
+        "name": "Living World Meadow Hay Rack & Basket",
+        "category": "Specialty Pets",
+        "subcategory": "Small Animals (hamsters, rabbits, guinea pigs)",
+        "price": 13.99,
+        "brand": "Living World",
+        "stock_quantity": 55,
+    "description": "Elevated metal hay rack and basket combo reducing bedding contamination while encouraging natural grazing posture for rabbits and other small herbivores.",
+        "tags": [
+            "small animal",
+            "hay",
+            "rabbit"
+        ],
+        "animal": "small animal",
+    "image_url": "https://i.ibb.co/placeholder/living-world-meadow-hay-rack-basket.png"
+    },
+    {
+        "name": "MidWest Homes for Pets Critter Cage",
+        "category": "Specialty Pets",
+        "subcategory": "Small Animals (hamsters, rabbits, guinea pigs)",
+        "price": 84.99,
+        "brand": "MidWest",
+        "stock_quantity": 25,
+    "description": "Large footprint small animal cage featuring deep scatter-resistant base, chew-resistant wire top, and dual access doors simplifying daily cleaning and enrichment rotation.",
+        "tags": [
+            "small animal",
+            "cage",
+            "rabbit"
+        ],
+        "animal": "small animal",
+    "image_url": "https://i.ibb.co/placeholder/midwest-homes-critter-cage.png"
+    }
+]
