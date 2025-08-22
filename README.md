@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="./public/logo.png" alt="The Cozy Nest" width="120" />
+	<!-- <img src="./public/logo.png" alt="The Cozy Nest" width="120" /> -->
 	<h1>The Cozy Nest</h1>
 	<p><strong>Modern pet product marketplace</strong> built with Next.js 15 App Router, TypeScript, Tailwind CSS (DaisyUI), NextAuth, and MongoDB.</p>
 	<p>Features credential + OAuth auth, glassmorphic UI, dynamic product catalog with category & subcategory taxonomy, protected dashboard, and toast notifications.</p>
