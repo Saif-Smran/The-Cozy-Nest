@@ -4,7 +4,7 @@ import GitHubProvider from 'next-auth/providers/github';
 import type { AuthOptions, User, Account, Profile, Session } from 'next-auth';
 import type { JWT } from 'next-auth/jwt';
 import { collectionNames, dbConnect } from './db';
-import bcrypt from 'bcryptjs';
+import bcrypt from 'bcrypt';
 
 // Real credentials login
 async function loginUser(credentials: Record<string, string> | undefined): Promise<{

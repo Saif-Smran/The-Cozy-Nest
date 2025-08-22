@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import logo from '../Asset/logo.png';
 import { Moon, Sun } from 'lucide-react';
+import { useSession } from 'next-auth/react';
 
 // Utility: golden ratio constant for potential dynamic calculations (optional future use)
 const PHI = 1.618;
@@ -50,6 +51,9 @@ export default function Navbar() {
     closeOnRoute();
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
+  const { data: session } = useSession();
+  const user: any = session?.user;
+  const avatarLetter = (user?.name || user?.email || '?').charAt(0).toUpperCase();
 
   return (
     <header className="sticky top-0 z-50 w-full">
@@ -113,12 +117,24 @@ export default function Navbar() {
                 <Sun className="h-5 w-5 md:h-6 md:w-6" aria-hidden />
               )}
             </button>
-            <Link
-              href="/login"
-              className="btn btn-primary btn-sm md:btn-md shadow-sm shadow-primary/20"
-            >
-              Log In
-            </Link>
+            {user ? (
+              <Link href="/dashboard" className="relative group" aria-label="User dashboard">
+                {user.image ? (
+                  <Image src={user.image} alt={user.name || 'User'} width={40} height={40} className="rounded-full ring-2 ring-primary/50 group-hover:ring-primary transition" />
+                ) : (
+                  <span className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-primary text-white font-semibold ring-2 ring-primary/40 group-hover:ring-primary transition text-sm">
+                    {avatarLetter}
+                  </span>
+                )}
+              </Link>
+            ) : (
+              <Link
+                href="/login"
+                className="btn btn-primary btn-sm md:btn-md shadow-sm shadow-primary/20"
+              >
+                Log In
+              </Link>
+            )}
             {/* Mobile Menu Toggle */}
             <button
               className="lg:hidden btn btn-sm btn-outline"
@@ -160,12 +176,25 @@ export default function Navbar() {
               );
             })}
             <li className="pt-2">
-              <Link
-                href="/login"
-                className="btn btn-primary btn-sm w-full"
-              >
-                Log In
-              </Link>
+              {user ? (
+                <Link href="/dashboard" className="flex items-center gap-3 px-3 py-2 rounded-md bg-base-200 dark:bg-base-300/40">
+                  {user.image ? (
+                    <Image src={user.image} alt={user.name || 'User'} width={32} height={32} className="rounded-full ring-2 ring-primary/40" />
+                  ) : (
+                    <span className="w-9 h-9 inline-flex items-center justify-center rounded-full bg-primary text-white font-semibold">
+                      {avatarLetter}
+                    </span>
+                  )}
+                  <span className="text-sm font-medium">Dashboard</span>
+                </Link>
+              ) : (
+                <Link
+                  href="/login"
+                  className="btn btn-primary btn-sm w-full"
+                >
+                  Log In
+                </Link>
+              )}
             </li>
           </ul>
         </div>
