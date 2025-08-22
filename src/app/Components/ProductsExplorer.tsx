@@ -9,7 +9,15 @@ interface ApiResponse {
   pagination?: { page: number; pages: number; total: number; limit: number };
 }
 
-const CATEGORY_OPTIONS = ['Pet Food','Pet Accessories','Pet Toys','Pet Health & Care'];
+const CATEGORY_MAP: Record<string,string[]> = {
+  'Pet Food': ['Dry Food','Wet Food','Treats & Snacks','Special Diets (grain-free, hypoallergenic, senior, puppy/kitten)'],
+  'Pet Accessories': ['Collars, Leashes & Harnesses','Beds & Blankets','Bowls & Feeders','Clothing & Costumes'],
+  'Pet Toys': ['Chew Toys','Interactive Toys','Plush Toys','Training Toys'],
+  'Pet Health & Care': ['Grooming Products (shampoo, brushes, nail clippers)','Flea & Tick Control','Vitamins & Supplements','First Aid & Medicine'],
+  'Pet Habitat & Supplies': ['Cages & Crates','Aquariums & Fish Tanks','Litter Boxes & Bedding','Perches & Scratching Posts'],
+  'Specialty Pets': ['Birds (food, cages, toys)','Fish (tanks, filters, decor)','Reptiles (terrariums, heating lamps, substrate)','Small Animals (hamsters, rabbits, guinea pigs)'],
+};
+const CATEGORY_OPTIONS = Object.keys(CATEGORY_MAP);
 const ANIMAL_OPTIONS = ['dog','cat','bird','fish','small pet'];
 
 export default function ProductsExplorer() {
@@ -18,6 +26,7 @@ export default function ProductsExplorer() {
   const [error, setError] = useState<string|null>(null);
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState<string>('');
+  const [subcategory, setSubcategory] = useState<string>('');
   const [animal, setAnimal] = useState<string>('');
   const [page, setPage] = useState(1);
   const [pages, setPages] = useState(1);
@@ -39,7 +48,8 @@ export default function ProductsExplorer() {
         params.set('page', String(page));
         params.set('limit', '24');
         if (query) params.set('q', query);
-        if (category) params.set('category', category);
+  if (category) params.set('category', category);
+  if (subcategory) params.set('subcategory', subcategory);
         if (animal) params.set('animal', animal);
         const res = await axios.get<ApiResponse>(`/api/products?${params.toString()}`);
         if (cancelled) return;
@@ -53,15 +63,16 @@ export default function ProductsExplorer() {
     }
     load();
     return () => { cancelled = true; };
-  }, [query, category, animal, page]);
+  }, [query, category, subcategory, animal, page]);
 
   function resetFilters() {
     setCategory('');
+    setSubcategory('');
     setAnimal('');
     setPage(1);
   }
 
-  const hasActive = category || animal || query;
+  const hasActive = category || subcategory || animal || query;
 
   const gridProducts = useMemo(() => products, [products]);
 
@@ -96,10 +107,20 @@ export default function ProductsExplorer() {
                 <h4 className="text-sm font-medium mb-2">Category</h4>
                 <div className="flex flex-wrap gap-2">
                   {CATEGORY_OPTIONS.map(cat => (
-                    <button key={cat} onClick={()=>{ setCategory(cat===category? '' : cat); setPage(1);} } className={`px-3 py-1 rounded-full text-xs font-medium border transition ${cat===category ? 'bg-primary text-primary-content border-primary' : 'border-base-300/60 dark:border-base-600/40 hover:bg-base-200/60 dark:hover:bg-base-400/20'}`}>{cat}</button>
+                    <button key={cat} onClick={()=>{ const next = cat===category? '' : cat; setCategory(next); setSubcategory(''); setPage(1);} } className={`px-3 py-1 rounded-full text-xs font-medium border transition ${cat===category ? 'bg-primary text-primary-content border-primary' : 'border-base-300/60 dark:border-base-600/40 hover:bg-base-200/60 dark:hover:bg-base-400/20'}`}>{cat}</button>
                   ))}
                 </div>
               </div>
+              {category && CATEGORY_MAP[category] && (
+                <div>
+                  <h4 className="text-sm font-medium mb-2">Subcategory</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {CATEGORY_MAP[category].map(sub => (
+                      <button key={sub} onClick={()=> { setSubcategory(prev => prev===sub ? '' : sub); setPage(1); }} className={`px-3 py-1 rounded-full text-[10px] font-medium border transition ${sub===subcategory ? 'bg-primary/80 text-primary-content border-primary' : 'border-base-300/60 dark:border-base-600/40 hover:bg-base-200/60 dark:hover:bg-base-400/20'}`}>{sub}</button>
+                    ))}
+                  </div>
+                </div>
+              )}
               <div>
                 <h4 className="text-sm font-medium mb-2">Animal</h4>
                 <div className="flex flex-wrap gap-2">
@@ -113,13 +134,14 @@ export default function ProductsExplorer() {
               <div className="text-[0.7rem] uppercase tracking-wide text-base-content/60 pt-2">
                 {query && <span className="mr-3">Query: "{query}"</span>}
                 {category && <span className="mr-3">Category: {category}</span>}
+                {subcategory && <span className="mr-3">Sub: {subcategory}</span>}
                 {animal && <span className="mr-3">Animal: {animal}</span>}
               </div>
             )}
           </div>
-+          <div className="mt-6 lg:hidden">
-+            <button onClick={()=> setOpenFilters(false)} className="btn btn-sm w-full">Close Filters</button>
-+          </div>
+          <div className="mt-6 lg:hidden">
+            <button onClick={()=> setOpenFilters(false)} className="btn btn-sm w-full">Close Filters</button>
+          </div>
         </aside>
 
         {/* Main content (approx golden ratio 62%) */}

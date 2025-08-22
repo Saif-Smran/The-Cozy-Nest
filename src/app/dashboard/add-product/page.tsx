@@ -1,10 +1,52 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { useToast } from '@/components/ToastProvider';
 
 interface FormState {
   name: string; category: string; subcategory: string; price: string; brand: string; stock_quantity: string; description: string; tags: string; animal: string; image_url: string;
 }
+
+// Predefined category & subcategory taxonomy
+const CATEGORY_MAP: Record<string, string[]> = {
+  'Pet Food': [
+    'Dry Food',
+    'Wet Food',
+    'Treats & Snacks',
+    'Special Diets (grain-free, hypoallergenic, senior, puppy/kitten)'
+  ],
+  'Pet Accessories': [
+    'Collars, Leashes & Harnesses',
+    'Beds & Blankets',
+    'Bowls & Feeders',
+    'Clothing & Costumes'
+  ],
+  'Pet Toys': [
+    'Chew Toys',
+    'Interactive Toys',
+    'Plush Toys',
+    'Training Toys'
+  ],
+  'Pet Health & Care': [
+    'Grooming Products (shampoo, brushes, nail clippers)',
+    'Flea & Tick Control',
+    'Vitamins & Supplements',
+    'First Aid & Medicine'
+  ],
+  'Pet Habitat & Supplies': [
+    'Cages & Crates',
+    'Aquariums & Fish Tanks',
+    'Litter Boxes & Bedding',
+    'Perches & Scratching Posts'
+  ],
+  'Specialty Pets': [
+    'Birds (food, cages, toys)',
+    'Fish (tanks, filters, decor)',
+    'Reptiles (terrariums, heating lamps, substrate)',
+    'Small Animals (hamsters, rabbits, guinea pigs)'
+  ],
+};
+
+const MAIN_CATEGORIES = Object.keys(CATEGORY_MAP);
 
 const initial: FormState = { name:'', category:'', subcategory:'', price:'', brand:'', stock_quantity:'', description:'', tags:'', animal:'', image_url:'' };
 
@@ -41,23 +83,43 @@ export default function AddProductPage() {
     }
   }
 
+  const subcategories = useMemo(()=> form.category && CATEGORY_MAP[form.category] ? CATEGORY_MAP[form.category] : [], [form.category]);
+
   return (
     <div className="max-w-3xl">
       <h1 className="text-2xl font-bold mb-6">Add Product</h1>
       <form onSubmit={handleSubmit} className="space-y-6">
-        <div className="grid md:grid-cols-2 gap-5">
+  <div className="grid md:grid-cols-2 gap-5">
           <div className="flex flex-col gap-1">
             <label className="text-sm font-medium">Name *</label>
             <input value={form.name} onChange={e=>update('name', e.target.value)} required className="input input-bordered w-full" />
           </div>
           <div className="flex flex-col gap-1">
             <label className="text-sm font-medium">Category *</label>
-            <input value={form.category} onChange={e=>update('category', e.target.value)} required className="input input-bordered w-full" />
+            <select value={form.category} onChange={e=> { update('category', e.target.value); update('subcategory',''); }} required className="select select-bordered w-full">
+              <option value="" disabled>-- Select Category --</option>
+              {MAIN_CATEGORIES.map(c => <option key={c} value={c}>{c}</option>)}
+              <option value="__other">Other (Custom)</option>
+            </select>
           </div>
-          <div className="flex flex-col gap-1">
-            <label className="text-sm font-medium">Subcategory</label>
-            <input value={form.subcategory} onChange={e=>update('subcategory', e.target.value)} className="input input-bordered w-full" />
-          </div>
+          {form.category === '__other' ? (
+            <div className="flex flex-col gap-1">
+              <label className="text-sm font-medium">Custom Category *</label>
+              <input value={form.subcategory} onChange={e=>update('subcategory', e.target.value)} required className="input input-bordered w-full" placeholder="Enter custom category" />
+            </div>
+          ) : (
+            <div className="flex flex-col gap-1">
+              <label className="text-sm font-medium">Subcategory {subcategories.length ? '' : '(optional)'}</label>
+              {subcategories.length ? (
+                <select value={form.subcategory} onChange={e=>update('subcategory', e.target.value)} className="select select-bordered w-full" required>
+                  <option value="" disabled>-- Select Subcategory --</option>
+                  {subcategories.map(sc => <option key={sc} value={sc}>{sc}</option>)}
+                </select>
+              ) : (
+                <input value={form.subcategory} onChange={e=>update('subcategory', e.target.value)} className="input input-bordered w-full" placeholder="Enter subcategory (if any)" />
+              )}
+            </div>
+          )}
           <div className="flex flex-col gap-1">
             <label className="text-sm font-medium">Brand</label>
             <input value={form.brand} onChange={e=>update('brand', e.target.value)} className="input input-bordered w-full" />

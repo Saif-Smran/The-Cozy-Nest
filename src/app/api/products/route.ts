@@ -61,12 +61,14 @@ export async function GET(req: NextRequest) {
 		const page = Math.max(1, parseInt(url.searchParams.get('page') || '1', 10));
 		const limit = Math.min(100, Math.max(1, parseInt(url.searchParams.get('limit') || '20', 10)));
 		const category = url.searchParams.get('category');
+		const subcategory = url.searchParams.get('subcategory');
 		const animal = url.searchParams.get('animal');
 		const tag = url.searchParams.get('tag');
 		const q = url.searchParams.get('q');
 
 		const query: Filter<Product> = {};
 		if (category) query.category = category;
+		if (subcategory) query.subcategory = subcategory;
 		if (animal) query.animal = animal;
 		if (tag) query.tags = { $in: [tag] } as any;
 		if (q) {

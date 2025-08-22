@@ -1,13 +1,13 @@
 "use client";
 import { signIn } from 'next-auth/react';
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import { useToast } from '@/components/ToastProvider';
 import Image from 'next/image';
 import LoginImage from '@/Asset/Login.jpg';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 
-export default function LoginPage() {
+function LoginFormInner() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -57,5 +57,13 @@ export default function LoginPage() {
         </div>
       </form>
     </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-sm text-base-content/70">Loading...</div>}>
+      <LoginFormInner />
+    </Suspense>
   );
 }
