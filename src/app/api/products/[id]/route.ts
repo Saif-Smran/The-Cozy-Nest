@@ -56,9 +56,10 @@ function sanitizePatch(body: any): { update: Partial<Product>; errors: string[] 
 }
 
 // GET /api/products/[id]
-export async function GET(_req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(_req: NextRequest, context: { params: Promise<{ id: string }> }) {
+    const { id } = await context.params;
 	try {
-		const _id = parseId(params.id);
+		const _id = parseId(id);
 		if (!_id) return Response.json({ error: 'Invalid product id.' }, { status: 400 });
 		const collection = dbConnect('products');
 		const doc = await collection.findOne({ _id } as any);
@@ -71,9 +72,10 @@ export async function GET(_req: NextRequest, { params }: { params: { id: string 
 }
 
 // PATCH /api/products/[id]
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, context: { params: Promise<{ id: string }> }) {
+    const { id } = await context.params;
 	try {
-		const _id = parseId(params.id);
+		const _id = parseId(id);
 		if (!_id) return Response.json({ error: 'Invalid product id.' }, { status: 400 });
 		const body = await req.json().catch(() => null);
 		const { update, errors } = sanitizePatch(body);
@@ -90,9 +92,10 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
 }
 
 // DELETE /api/products/[id]
-export async function DELETE(_req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(_req: NextRequest, context: { params: Promise<{ id: string }> }) {
+    const { id } = await context.params;
 	try {
-		const _id = parseId(params.id);
+		const _id = parseId(id);
 		if (!_id) return Response.json({ error: 'Invalid product id.' }, { status: 400 });
 		const collection = dbConnect('products');
 		const del = await collection.deleteOne({ _id } as any);

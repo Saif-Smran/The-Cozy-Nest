@@ -2,4 +2,19 @@
 @plugin "daisyui";
 
 
+/* Glassmorphism helpers */
+.glass-card {
+	@apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg rounded-xl;
+}
+.glass-input {
+	@apply bg-white/10 focus:bg-white/20 border border-white/30 focus:border-white/50 placeholder:text-white/60 text-white;
+}
+.glass-btn {
+	@apply bg-gradient-to-r from-white/30 to-white/10 hover:from-white/40 hover:to-white/20 text-white font-semibold border border-white/40 backdrop-blur-md rounded-lg transition-colors;
+}
+.glass-link { @apply text-white hover:underline font-medium; }
+
+
+
+
 

@@ -2,9 +2,10 @@ import { NextRequest } from 'next/server';
 import { dbConnect } from '@/lib/db';
 
 // GET /api/products/users/[email] - fetch a user document by email (case-insensitive)
-export async function GET(_req: NextRequest, { params }: { params: { email: string } }) {
+export async function GET(_req: NextRequest, context: { params: Promise<{ email: string }> }) {
 	try {
-		const raw = params.email || '';
+	const { email } = await context.params;
+	const raw = email || '';
 		const decoded = decodeURIComponent(raw).trim();
 		if (!decoded) return Response.json({ error: 'Email is required.' }, { status: 400 });
 		// rudimentary email format check

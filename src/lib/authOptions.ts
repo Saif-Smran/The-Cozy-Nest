@@ -4,13 +4,23 @@ import GitHubProvider from 'next-auth/providers/github';
 import type { AuthOptions, User, Account, Profile, Session } from 'next-auth';
 import type { JWT } from 'next-auth/jwt';
 import { collectionNames, dbConnect } from './db';
+import bcrypt from 'bcryptjs';
 
-// Placeholder loginUser until real implementation is added
+// Real credentials login
 async function loginUser(credentials: Record<string, string> | undefined): Promise<{
-    success: boolean; userId: string; user: any;
+    success: boolean; userId?: string; user?: any;
 }> {
-    // Implement your credentials auth here. For now, always fail.
-    return { success: false, userId: '', user: null };
+    if (!credentials) return { success: false };
+    const { email, password } = credentials;
+    if (!email || !password) return { success: false };
+    const users = dbConnect('users');
+    const user = await users.findOne({ email, provider: 'credentials' });
+    if (!user || !user.password) return { success: false };
+    const match = await bcrypt.compare(password, user.password);
+    if (!match) return { success: false };
+    // update last login
+    await users.updateOne({ _id: user._id }, { $set: { lastLogin: new Date() } });
+    return { success: true, userId: user._id.toString(), user };
 }
 
 export const authOptions: AuthOptions = {
@@ -27,21 +37,23 @@ export const authOptions: AuthOptions = {
                 email: { label: "Email", type: "email", placeholder: "Enter Your Email" },
                 password: { label: "Password", type: "password", placeholder: "Enter Your Password" }
             },
-            async authorize(credentials) {
+            async authorize(credentials, _req) {
                 try {
                     // Add logic here to look up the user from the credentials supplied
                     const user = await loginUser(credentials);
 
                     // If user exists and password is correct, return user object
-                    if (user && user.success) {
-                        // Return user object that will be saved in the JWT
+                    if (user && user.success && user.userId) {
+                        const fullName: string = (user.user.name) || '';
+                        const [firstName = fullName || 'User', ...rest] = fullName.split(' ');
+                        const lastName = rest.join(' ');
                         return {
-                            id: user.userId,
+                            id: user.userId.toString(),
                             email: user.user.email,
-                            name: `${user.user.firstName} ${user.user.lastName}`,
-                            firstName: user.user.firstName,
-                            lastName: user.user.lastName,
-                            phone: user.user.phone,
+                            name: fullName || firstName,
+                            firstName,
+                            lastName,
+                            phone: (user.user as any).phone || '',
                             role: user.user.role || 'user'
                         }
                     } else {

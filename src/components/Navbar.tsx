@@ -108,7 +108,7 @@ export default function Navbar() {
               title={theme === 'light' ? 'Dark mode' : 'Light mode'}
             >
               {theme === 'light' ? (
-                <Moon className="h-5 w-5 md:h-6 md:w-6" aria-hidden />
+                <Moon className="h-5 w-5 md:h-6 md:w-6 text-black" aria-hidden />
               ) : (
                 <Sun className="h-5 w-5 md:h-6 md:w-6" aria-hidden />
               )}
